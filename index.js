@@ -31,7 +31,7 @@ app.post('/login', function (req, res) {
         from: 'site@fernandoparanhos.com.br',
         to: 'fernandoeparanhos@gmail.com',
         subject: 'Conato JNW',
-        text: ` Telefone: ${req.body.telefone}\n Mensagem: ${req.body.conteudo}\n E-mail: ${req.body.email}`
+        text: ` Telefone: ${req.body.telefone}\n Mensagem: ${req.body.conteudo}\n E-mail: ${req.body.email} \n Para realizar sonhos: ${req.body.emailindex}`
     }
     transporter.sendMail(mailOptions, function(err, info){
         if(err){
