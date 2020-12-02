@@ -15,8 +15,8 @@ var transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'site@fernandoparanhos.com.br',
-        pass: 'senha*!@#$%$Senha45'
+        user: 'fernando@fernandoparanhos.com.br',
+        pass: 'aF*232892!@#*&!'
    }
 });
 
